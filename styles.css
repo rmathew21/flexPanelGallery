@@ -27,9 +27,11 @@ body {
     text-align: center;
     align-items: center;
     transition: 
-        fontsize 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11),
-        flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11),
-        background 0.2s;
+        /* fontsize 0.5s cubic-bezier(0.61, -0.19, 0.7, -0.11),
+        flex 0.5s cubic-bezier(0.61, -0.19, 0.7, -0.11), */
+        fontsize 0.5s cubic-bezier(.41,.03,.32,.92),
+        flex 0.5s cubic-bezier(.41, .03, .32, .92),
+        background 0.3s;
     font-size: 20px;
     background-size: cover;
     background-position: center;
