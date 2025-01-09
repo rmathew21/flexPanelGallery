@@ -41,11 +41,27 @@ body {
     flex-direction: column;
 }
 
-.panel1 { background-image:url(images/ashAndJones.JPG); }
-.panel2 { background-image:url(images/izAndKen.JPG); }
-.panel3 { background-image:url(images/zayne.JPG); }
-.panel4 { background-image:url(images/Oliver.JPG); }
-.panel5 { background-image:url(images/Sahana.JPG); }
+.panel1 { 
+    background-image:url(images/ashAndJones.JPG); 
+    font-weight: bold;
+}
+.panel2 { 
+    background-image:url(images/izAndKen.JPG); 
+    font-weight: bold;
+}
+.panel3 { 
+    background-image:url(images/z.JPG); 
+    /* color: red; */
+    font-weight: bold;
+}
+.panel4 { 
+    background-image:url(images/Oliver.JPG); 
+    font-weight: bold;
+}
+.panel5 { 
+    background-image:url(images/Sahana.JPG); 
+    font-weight: bold;
+}
 
 /* Flex Items */
 .panel > * {
