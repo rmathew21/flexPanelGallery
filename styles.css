@@ -96,9 +96,9 @@ body {
 }
 
 @media screen and (max-width: 900px) and (orientation: landscape) {
-    .panels {
+    /* .panels {
         flex-direction: column;
-    }
+    } */
 
     .panel {
         flex: 1;
