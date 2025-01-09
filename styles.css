@@ -126,6 +126,20 @@ body {
     }
 }
 
+@media screen and (max-width: 500px) {
+    .panel {
+        background-size: contain;
+        font-size: 12px;
+    }
+    .panel p {
+       font-size: 0.8em; 
+    }
+
+    .panel p:nth-child(2) {
+        font-size: 1.5em;
+    }
+} 
+
 @media only screen and (max-width: 480px) {
     .panel p {
         font-size: 1.2 em;
