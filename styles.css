@@ -95,6 +95,16 @@ body {
     font-size: 40px;
 }
 
+@media screen and (max-width: 900px) and (orientation: landscape) {
+    .panels {
+        flex-direction: column;
+    }
+
+    .panel {
+        flex: 1;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .panel p {
         font-size: 1em;
