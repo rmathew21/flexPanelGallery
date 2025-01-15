@@ -101,12 +101,13 @@ body {
     .panel {
         background-size: cover;
         background-repeat: no-repeat;
+        /* flex: 1; */
     }
     
-    /* .panels {
+    .panels {
         flex-direction: row;
 
-    } */
+    }
     .panel.open {
         flex: 5; /* Expand the clicked panel */
         transition: flex 0.5s ease, font-size 0.3s ease;
