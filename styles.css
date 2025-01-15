@@ -40,6 +40,8 @@ body {
     justify-content: center;
     display: flex;
     flex-direction: column;
+
+    
 }
 
 .panel1 { 
@@ -106,7 +108,10 @@ body {
     
     .panels {
         flex-direction: row;
-
+        height: 100vh; /* Full screen height */
+        width: 100vw;  /* Full screen width */
+        display: flex;
+        flex-wrap: nowrap; /* Prevent panels from wrapping */
     }
     .panel.open {
         flex: 5; /* Expand the clicked panel */
