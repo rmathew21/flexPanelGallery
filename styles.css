@@ -101,7 +101,7 @@ body {
     .panel {
         background-size: cover;
         background-repeat: no-repeat;
-        /* flex: 1; */
+        flex: 1;
     }
     
     .panels {
