@@ -40,6 +40,7 @@ body {
     justify-content: center;
     display: flex;
     flex-direction: column;
+    overflow: auto;
 
     
 }
@@ -104,6 +105,7 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         flex: 1;
+        overflow: auto;
     }
     
     .panels {
@@ -116,6 +118,12 @@ body {
     .panel.open {
         flex: 5; /* Expand the clicked panel */
         transition: flex 0.5s ease, font-size 0.3s ease;
+    }
+
+    .panel p {
+        font-size: 1.5em;
+        text-transform: uppercase;
+        text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
     }
     
     /* .panel.open-active p {
